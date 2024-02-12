@@ -22,6 +22,7 @@ get_header();
 				<?php while ( have_posts() ) : the_post(); ?>
 					<?php velocity_post_loop();?>
 				<?php endwhile; ?>
+	<?php justg_pagination();?>
 			<?php else : ?>
 				<?php get_template_part( 'loop-templates/content', 'none' ); ?>
 			<?php endif; ?>
