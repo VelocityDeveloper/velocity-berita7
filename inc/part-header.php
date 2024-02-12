@@ -114,8 +114,6 @@ if ($iklan_content) { ?>
 					'items_wrap'  => '%3$s',
 				  ); ?>
 				  <?php wp_nav_menu($responsive_menu); ?>
-				  <?php $responsive_menu['theme_location'] = 'secondary'; ?>
-				  <?php wp_nav_menu($responsive_menu); ?>
 				</ul>
 			</div>
 		</div><!-- .offcanvas -->
